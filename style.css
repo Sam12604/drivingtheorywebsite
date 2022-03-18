@@ -27,7 +27,7 @@ html {
 
 .quiz {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1.2fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     gap: 0px 0px;
     grid-auto-flow: row;
@@ -49,7 +49,7 @@ html {
     grid-template-areas: "check1 ans1" "check2 ans2" "check3 ans3" "check4 ans4";
     grid-area: answers;
     vertical-align: middle;
-    font-size: large;
+    font-size: 1.4em;
     font-weight: 550;
 }
 
