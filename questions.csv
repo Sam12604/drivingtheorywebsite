@@ -1,0 +1,17 @@
+ref,topic,question,tans,ans1,ans2,ans3,hint,diagram
+ale0002,Alertness,Whats should you do before making a U-turn?,look over your shoulder for a final check,choose a higher gear,check road marking to make sure U-turns are permitted,give an arm signal as well as using your indicators,,FALSE
+ale0003,Alertness,What should you do as you approach this bridge?,slow down,change gear,keep to 30 mph,move to the right,,TRUE
+ale0004,Alertness,Where should you avoid overtaking,before a dip in the road,on a 30 mph road,in a one-way street,just after a bend,,FALSE
+ale0005,Alertness,What does this curved arrow marking mean?,overtaking traffic should keep to the left,the road has a camber to the left,lorries should take the next road on the left to avoid a weight limit,road ahead bends to left,,TRUE
+ale0006,Alertness,What should you do if your phone rings while driving?,wait to answer it until you have stopped in a safe place,answer it immediately,stop where you are,pull up on the nearest curb,,FALSE
+ale0007,Alertness,What are these yellow lines painted across the road for?,to help make you aware of your speed,help you choose the correct lane,help keep the correct seperation distance,tell you the distance to the roundabout,,TRUE
+ale0008,Alertness,What should you do when you're approaching traffic lights that have been green for a while?,be ready to stop,accelerate hard,maintain your speed,brake hard,,FALSE
+ale0009,Alertness,What should you do before slowing down or stopping your vehicle?,use the mirrors,sound the horn,select a higher gear,flash the headlights,,FALSE
+ale0010,Alertness,You're following a large vehicle. Why should you stay a safe distance behind it?,you'll give the driver a chance to see you in their mirrors,you'll keep out the wind more,you'll help the large vehicle stop easier,you'll be able to corner more quickly,,FALSE
+ale0011,Alertness,Why should you use your mirrors when you see a hazard ahead?,to assess how your actions will affect drivers behind you,you'll need to accelerate out of danger,you'll need to brake and stop sharply,to check what's happening on the road ahead,,FALSE
+ale0012,Alertness,You're waiting to turn right at the end of a road. What should you do if your view is obstructed by parked vehicles?,stop then move forward slowly and carefully for a clearer view,move quickly to where you can see so you only block traffic in one direction,wait for a pedestrian to let you know when it's safe,turn around and find another junction,,FALSE
+ale0013,Alertness,Why can things hanging from your mirror be a hazard?,your view may be obstructed,your sun visor might get tangled,your radio may be affected,your windscreen may mist up,,FALSE
+ale0014,Alertness,What should you do on a long journey if you start to feel sleepy?,find a safe place to stop and rest,drive faster so you finish the journey quicker,play loud music,stop and rest on the hard shoulder,,FALSE
+ale0015,Alertness,Why should you switch on your headlights when it starts to get dark?,so others can more easily see you,to blend in with other drivers,because the streetlights are lit,make your dials easier to see,,FALSE
+ale0016,Alertness,What will most likely distract you while driving?,using a mobile phone,windscreen wipers,using the demisters,using the mirrors,,FALSE
+ale0017,Alertness,When may you use your mobile phone while driving?,when you've safely parked,when you're receiving a call,when driving less than 30 mph,while in an automatic car,,FALSE

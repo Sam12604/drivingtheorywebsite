@@ -1,0 +1,178 @@
+[
+ {
+   "ref": "ale0002",
+   "topic": "Alertness",
+   "question": "Whats should you do before making a U-turn?",
+   "tans": "look over your shoulder for a final check",
+   "ans1": "choose a higher gear",
+   "ans2": "check road marking to make sure U-turns are permitted",
+   "ans3": "give an arm signal as well as using your indicators",
+   "hint": "",
+   "diagram": false
+ },
+ {
+   "ref": "ale0003",
+   "topic": "Alertness",
+   "question": "What should you do as you approach this bridge?",
+   "tans": "slow down",
+   "ans1": "change gear",
+   "ans2": "keep to 30 mph",
+   "ans3": "move to the right",
+   "hint": "",
+   "diagram": true
+ },
+ {
+   "ref": "ale0004",
+   "topic": "Alertness",
+   "question": "Where should you avoid overtaking",
+   "tans": "before a dip in the road",
+   "ans1": "on a 30 mph road",
+   "ans2": "in a one-way street",
+   "ans3": "just after a bend",
+   "hint": "",
+   "diagram": false
+ },
+ {
+   "ref": "ale0005",
+   "topic": "Alertness",
+   "question": "What does this curved arrow marking mean?",
+   "tans": "overtaking traffic should keep to the left",
+   "ans1": "the road has a camber to the left",
+   "ans2": "lorries should take the next road on the left to avoid a weight limit",
+   "ans3": "road ahead bends to left",
+   "hint": "",
+   "diagram": true
+ },
+ {
+   "ref": "ale0006",
+   "topic": "Alertness",
+   "question": "What should you do if your phone rings while driving?",
+   "tans": "wait to answer it until you have stopped in a safe place",
+   "ans1": "answer it immediately",
+   "ans2": "stop where you are",
+   "ans3": "pull up on the nearest curb",
+   "hint": "",
+   "diagram": false
+ },
+ {
+   "ref": "ale0007",
+   "topic": "Alertness",
+   "question": "What are these yellow lines painted across the road for?",
+   "tans": "to help make you aware of your speed",
+   "ans1": "help you choose the correct lane",
+   "ans2": "help keep the correct seperation distance",
+   "ans3": "tell you the distance to the roundabout",
+   "hint": "",
+   "diagram": true
+ },
+ {
+   "ref": "ale0008",
+   "topic": "Alertness",
+   "question": "What should you do when you're approaching traffic lights that have been green for a while?",
+   "tans": "be ready to stop",
+   "ans1": "accelerate hard",
+   "ans2": "maintain your speed",
+   "ans3": "brake hard",
+   "hint": "",
+   "diagram": false
+ },
+ {
+   "ref": "ale0009",
+   "topic": "Alertness",
+   "question": "What should you do before slowing down or stopping your vehicle?",
+   "tans": "use the mirrors",
+   "ans1": "sound the horn",
+   "ans2": "select a higher gear",
+   "ans3": "flash the headlights",
+   "hint": "",
+   "diagram": false
+ },
+ {
+   "ref": "ale0010",
+   "topic": "Alertness",
+   "question": "You're following a large vehicle. Why should you stay a safe distance behind it?",
+   "tans": "you'll give the driver a chance to see you in their mirrors",
+   "ans1": "you'll keep out the wind more",
+   "ans2": "you'll help the large vehicle stop easier",
+   "ans3": "you'll be able to corner more quickly",
+   "hint": "",
+   "diagram": false
+ },
+ {
+   "ref": "ale0011",
+   "topic": "Alertness",
+   "question": "Why should you use your mirrors when you see a hazard ahead?",
+   "tans": "to assess how your actions will affect drivers behind you",
+   "ans1": "you'll need to accelerate out of danger",
+   "ans2": "you'll need to brake and stop sharply",
+   "ans3": "to check what's happening on the road ahead",
+   "hint": "",
+   "diagram": false
+ },
+ {
+   "ref": "ale0012",
+   "topic": "Alertness",
+   "question": "You're waiting to turn right at the end of a road. What should you do if your view is obstructed by parked vehicles?",
+   "tans": "stop then move forward slowly and carefully for a clearer view",
+   "ans1": "move quickly to where you can see so you only block traffic in one direction",
+   "ans2": "wait for a pedestrian to let you know when it's safe",
+   "ans3": "turn around and find another junction",
+   "hint": "",
+   "diagram": false
+ },
+ {
+   "ref": "ale0013",
+   "topic": "Alertness",
+   "question": "Why can things hanging from your mirror be a hazard?",
+   "tans": "your view may be obstructed",
+   "ans1": "your sun visor might get tangled",
+   "ans2": "your radio may be affected",
+   "ans3": "your windscreen may mist up",
+   "hint": "",
+   "diagram": false
+ },
+ {
+   "ref": "ale0014",
+   "topic": "Alertness",
+   "question": "What should you do on a long journey if you start to feel sleepy?",
+   "tans": "find a safe place to stop and rest",
+   "ans1": "drive faster so you finish the journey quicker",
+   "ans2": "play loud music",
+   "ans3": "stop and rest on the hard shoulder",
+   "hint": "",
+   "diagram": false
+ },
+ {
+   "ref": "ale0015",
+   "topic": "Alertness",
+   "question": "Why should you switch on your headlights when it starts to get dark?",
+   "tans": "so others can more easily see you",
+   "ans1": "to blend in with other drivers",
+   "ans2": "because the streetlights are lit",
+   "ans3": "make your dials easier to see",
+   "hint": "",
+   "diagram": false
+ },
+ {
+   "ref": "ale0016",
+   "topic": "Alertness",
+   "question": "What will most likely distract you while driving?",
+   "tans": "using a mobile phone",
+   "ans1": "windscreen wipers",
+   "ans2": "using the demisters",
+   "ans3": "using the mirrors",
+   "hint": "",
+   "diagram": false
+ },
+ {
+   "ref": "ale0017",
+   "topic": "Alertness",
+   "question": "When may you use your mobile phone while driving?",
+   "tans": "when you've safely parked",
+   "ans1": "when you're receiving a call",
+   "ans2": "when driving less than 30 mph",
+   "ans3": "while in an automatic car",
+   "hint": "",
+   "diagram": false
+ }
+]
