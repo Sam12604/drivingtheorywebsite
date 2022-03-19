@@ -17,9 +17,50 @@
         <div class="display_inner">
             <div class="quiz">
                 <div class="question">
-                    <p id="current_question">Underconstruction, coming soon!</p>
+                    <p id="current_question"></p>
+                </div>
+                <div class="answers">
+                    <div class="check1"><input type="radio" name="answer" id="ans1"></div>
+                    <div class="check2"><input type="radio" name="answer" id="ans2"></div>
+                    <div class="check3"><input type="radio" name="answer" id="ans3"></div>
+                    <div class="check4"><input type="radio" name="answer" id="ans4"></div>
+
+
+                    <div class="ans1">
+                        <label for="ans1" id="answer1"></label>
+                    </div>
+                    <div class="ans2">
+                        <label for="ans2" id="answer2"></label>
+                    </div>
+                    <div class="ans3">
+                        <label for="ans3" id="answer3"></label>
+                    </div>
+                    <div class="ans4">
+                        <label for="ans4" id="answer4"></label>
+                    </div>
+                </div>
+                <div class="explanation"></div>
+
+                <div class="actions">
+                    <div class="back">
+
+                    </div>
+                    <div class="check">
+
+                    </div>
+                    <div class="forward">
+                        <button onclick="loadQuestion()">click me</button>
+                    </div>
+                </div>
+
+                <div class="diagram">
+                    <img id="diagram_img" src="https://storage.googleapis.com/bolt-production-qb-pub-bucket/1/428/428/AB2856.gif" width="100%" style="display: none;">
                 </div>
             </div>
+
+
+
+
 
             <div class="footer">
                 <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
@@ -61,6 +102,8 @@
         <div class="padding_l"></div>
         <div class="padding_r"></div>
     </div>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
