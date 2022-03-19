@@ -1,5 +1,5 @@
 async function getData() {
-    response1 = await fetch('https://sam12604.github.io/drivingtheorywebsite/questions.json');
+    response1 = await fetch('https://SimplyDrivingTheory.co/questions.json');
     questions_data = await response1.json();
     loadQuestion()
 }
