@@ -1,3 +1,4 @@
+correct = new Audio('files/sounds/juntos-607.mp3');
 questions = []
 max = 0
 selected_answer = -1
@@ -91,6 +92,11 @@ function loadQuestion() {
 
         //clears selected answers
         clearSelected();
+
+        //MOVE TO FUNCTION THAT CHECKS ANSWER IS CORRECT
+        correct.pause();
+        correct.currentTime = 0;
+        correct.play();
     } else {
         //moves to end of quiz screen which will eventually display score
         endOfQuiz();
