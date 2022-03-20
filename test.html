@@ -8,8 +8,12 @@
     <meta name="description" content="">
     <meta name="author" content="Sam Harris">
     <link rel="canonical" href="SimplyDrivingTheory.co">
+
     <link rel="stylesheet" href="style.css">
     <link href="required.css" rel="stylesheet">
+
+    <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
 </head>
 
 <body>
@@ -20,10 +24,18 @@
                     <p id="current_question"></p>
                 </div>
                 <div class="answers">
-                    <div class="check1"><input type="radio" name="answer" id="ans1"></div>
-                    <div class="check2"><input type="radio" name="answer" id="ans2"></div>
-                    <div class="check3"><input type="radio" name="answer" id="ans3"></div>
-                    <div class="check4"><input type="radio" name="answer" id="ans4"></div>
+                    <div class="check1">
+                        <input type="radio" name="answer" id="ans1">
+                    </div>
+                    <div class="check2">
+                        <input type="radio" name="answer" id="ans2">
+                    </div>
+                    <div class="check3">
+                        <input type="radio" name="answer" id="ans3">
+                    </div>
+                    <div class="check4">
+                        <input type="radio" name="answer" id="ans4">
+                    </div>
 
 
                     <div class="ans1">
@@ -39,17 +51,19 @@
                         <label for="ans4" id="answer4"></label>
                     </div>
                 </div>
-                <div class="explanation"></div>
+
+                <div class="explanation">
+                    <button class="buttons" onclick="getData()">START QUIZ</button>
+                    <button class="buttons" onclick="loadQuestion()">NEXT</button>
+                </div>
 
                 <div class="actions">
                     <div class="back">
 
                     </div>
                     <div class="check">
-                        <button onclick="getData()">go</button>
                     </div>
                     <div class="forward">
-                        <button onclick="loadQuestion()">click me</button>
                     </div>
                 </div>
 
