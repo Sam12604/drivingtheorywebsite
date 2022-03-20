@@ -151,6 +151,8 @@ label:hover {
     cursor: pointer;
     border: none;
     padding: 0 40px;
+    margin-left: 10px;
+    margin-right: 10px;
     height: 45px;
     line-height: 45px;
     border-radius: 7px;
@@ -165,4 +167,18 @@ label:hover {
 .buttons:hover {
     background: rgba(0, 118, 255, 0.9);
     box-shadow: 0 6px 20px rgb(0 118 255 / 23%);
+}
+
+#progressbar {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+
+/* all css below is for mobile devices */
+
+@media only screen and (max-width: 1000px) {
+    html {
+        display: hidden;
+    }
 }
