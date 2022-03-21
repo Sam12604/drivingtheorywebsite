@@ -36,6 +36,21 @@ function uncheck() {
     }
 }
 
+//diables or enables clicking answers
+function radioDisabled(state) {
+    for (x = 1; x <= 4; x++) {
+        x2 = "ans" + x;
+        x3 = "answer" + x;
+        document.getElementById(x2).disabled = state;
+        // !! probably better way to do this, update in future
+        if (state) {
+            document.getElementById(x3).attributes.onClick.value = ""
+        } else {
+            document.getElementById(x3).attributes.onClick.value = "selectAnswer(this.id)"
+        }
+    }
+}
+
 //selects active answer
 function selectAnswer(id) {
     selected_answer = id
@@ -62,7 +77,10 @@ function clearSelected() {
 //loads random question onto screen and puts answers in random order
 function loadQuestion() {
     //unchecks seleted radios
-    uncheck()
+    uncheck();
+
+    //makes radios clickable
+    radioDisabled(false);
 
     //makes sure there is questions avaliable
     if (questions.length > 0) {
@@ -132,6 +150,8 @@ function markQuestion() {
         document.getElementById(correct_answer_label).style = "background-color: rgb(145, 238, 145);border-radius: 5px;padding: 8px;";
         //adds to score
         score++
+        //diable answers
+        radioDisabled(true);
     } else {
         //makes answer green if correct
         selected = document.querySelector('input[name="answer"]:checked').labels[0].id;
