@@ -11,12 +11,25 @@
 
     <link rel="stylesheet" href="style.css">
     <link href="required.css" rel="stylesheet">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KJT4YH6EEF"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-KJT4YH6EEF');
+    </script>
 </head>
 
 <body>
     <div class="display">
         <div class="display_inner">
-            <!--<h1 style="margin-top: 15px; font-weight: bold;">SimplyDrivingTheory.co</h1>-->
+            <h1 id="header"></h1>
             <div class="quiz">
                 <div class="question">
                     <progress max="2" value="2" id="progressbar" data-label="50% Complete"></progress>
