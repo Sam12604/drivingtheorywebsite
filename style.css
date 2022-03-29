@@ -4,6 +4,22 @@ html {
     transition: 0.4s;
 }
 
+#header {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+#header::before {
+    content: "SimplyDrivingTheory.co";
+}
+
+#header::after {
+    content: "BETA";
+    vertical-align: sub;
+    font-size: 50%;
+    font-style: italic;
+}
+
 .display {
     display: grid;
     grid-template-columns: 1fr 5fr 1fr;
