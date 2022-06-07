@@ -28,13 +28,16 @@
 
 <body>
     <div class="display">
-        <div class="display_inner">
-            <h1 id="header"></h1>
-            <div class="quiz">
-                <div class="question">
-                    <progress max="2" value="2" id="progressbar" data-label="50% Complete"></progress>
-                    <p id="current_question"></p>
-                </div>
+        <div class="quiz">
+            <div class="progress_bar">
+                <!-- <progress max="2" value="2" id="progressbar" data-label="50% Complete"></progress> -->
+            </div>
+
+            <div class="question">
+                <p id="current_question"></p>
+            </div>
+
+            <div class="main">
                 <div class="answers">
                     <div class="check1">
                         <input type="radio" name="answer" id="ans1" onclick="selectAnswer('answer1')">
@@ -64,32 +67,27 @@
                     </div>
                 </div>
 
-                <div class="explanation">
-                    <button class="buttons" onclick="getData()">START QUIZ</button>
-                    <button class="buttons" onclick="loadQuestion()">NEXT</button>
-                </div>
-
-                <div class="actions">
-                    <div class="back">
-                        <button class="buttons" onclick="markQuestion()">CHECK</button>
-                    </div>
-                    <div class="check">
-                    </div>
-                    <div class="forward">
-                    </div>
-                </div>
-
                 <div class="diagram" id="question_diagram">
-                    <img id="diagram_img" src="" style="display: none; max-width: 90%; max-height: 80%; margin-right: 0; margin-left: auto; margin-top: 5%; margin-bottom: auto;">
+                    <img id="diagram_img" src="" style="display: none; width: 80%; max-height: 90%; justify-content: center;">
                 </div>
             </div>
 
+            <div class="actions">
+                <div class="buttons">
+                    <button class="clickable_button" onclick="markQuestion()">CHECK</button>
+                    <button class="clickable_button" onclick="getData()">START</button>
+                    <button class="clickable_button" onclick="loadQuestion()">NEXT</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 
 
-            <div class="footer">
-                <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+
+    <div class="footer">
+        <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
                     <symbol id="bootstrap" viewBox="0 0 118 94">
                       <path fill-rule="evenodd" clip-rule="evenodd" d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z"></path>
                     </symbol>
@@ -104,28 +102,25 @@
                     </symbol>
                 </svg>
 
-                <div class="container">
-                    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-                        <div class="col-md-4 d-flex align-items-center">
-                            <a href="mailto:sam@SimpyDrivingTheory.co" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
+        <div class="container">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                <div class="col-md-4 d-flex align-items-center">
+                    <a href="mailto:sam@SimpyDrivingTheory.co" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
                                     <path d="M7 1.414V4H2a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h5v6h2v-6h3.532a1 1 0 0 0 .768-.36l1.933-2.32a.5.5 0 0 0 0-.64L13.3 4.36a1 1 0 0 0-.768-.36H9V1.414a1 1 0 0 0-2 0zM12.532 5l1.666 2-1.666 2H2V5h10.532z"/>
                                 </svg>
-                            </a>
-                            <span class="text-muted">Sam Harris &copy; 2022</span>
-                        </div>
-
-                        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-                            <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
-                            <li class="ms-3"><a class="text-muted" href="https://www.instagram.com/schmam_"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
-                            <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
-                        </ul>
-                    </footer>
+                    </a>
+                    <span class="text-muted">Sam Harris &copy; 2022</span>
                 </div>
-            </div>
+
+                <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                    <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
+                    <li class="ms-3"><a class="text-muted" href="https://www.instagram.com/schmam_"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
+                    <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+                </ul>
+            </footer>
         </div>
-        <div class="padding_l"></div>
-        <div class="padding_r"></div>
+    </div>
     </div>
 
     <script src="script.js"></script>
